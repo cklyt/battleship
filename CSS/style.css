@@ -1,0 +1,97 @@
+
+#header{
+	color:blue;
+	text-align:center;
+	font-style: italic;
+}
+#information-table{
+	width:1600px;
+	background-color:black;
+	cellpadding:15px;
+}
+
+.cell{
+	width:60px;
+	height:60px;
+	background-color:blue;	
+}
+
+#game-area{	
+
+}
+.explosion{
+    width:1000px;
+	height:800px;
+	background-image: url("../image/bomb.gif");
+}
+#back-image{
+    background-image: url("../image/background.jpg");
+	width:875px;
+	height:625px;
+	background-repeat: no-repeat;
+}
+#play-now-btn{
+	background-image: url("../image/bottun.png");
+	text-align:center;
+	width:100px;
+	height:50px;
+	font-style: italic;
+	color:Bule;
+	position: absolute;
+}
+
+.cell:hover{background-color:yellow;}
+
+#boat1{
+	background-image: url("../image/carrier.png");
+	width:300px;
+	height:150px;
+	font-style: italic
+	
+}
+#boat2{
+	background-image: url("../image/battleship.png");
+	width:300px;
+	height:150px;
+	font-style: italic
+}
+#boat3{
+	background-image: url("../image/cruiser.png");
+	width:300px;
+	height:150px;
+	font-style: italic
+}
+#boat4{
+	background-image: url("../image/destroyer.png");
+	width:300px;
+	height:150px;
+	font-style: italic	
+}
+#boat5{
+	background-image: url("../image/Submarine.png");
+	width:300px;
+	height:150px;
+	font-style: italic
+}
+#title{
+	text-align: center;
+	color:#E0E0E0;
+	
+	
+}
+.miss
+{
+	background-color:green;
+}
+.hit
+{
+	background-color:red;
+}
+#win
+{
+	background-image: url("../image/background.jpg");
+	width:875px;
+	height:625px;
+	background-repeat: no-repeat;
+	
+}

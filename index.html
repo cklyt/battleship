@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+
+<body background="image/bluebackground.jpg">
+	
+	<div id="game-title">
+		Battleships
+	</div>
+	
+	<div id="header">
+		<h1>BattleShip</h1>
+	</div>
+
+	<div id="instructions">
+
+		<table id = "information-table" style="color:grey">
+			
+			<tr>
+				<td style="width:200px">Battle</td>
+				<td><h1>Instructions</h1></td>
+				<td id = "title"><h1>THE BEST BATTLESHIP GAME!</h1></td>
+			</tr>
+		
+			<tr>
+				<td>ship</td>
+				<td  style="color:grey;width:200px">
+					<p>A player takes on the role of fleet commander and find and
+						sink the enemy fleet in as few a number of shots as possible..</p>
+					<p>The game shall initialize a game board that is broken up
+						into a 10x10 grid of sectors. Each sector is a target the player
+						may attempt to hit a ship in. Each shot shall be visually shown.
+						Each hit shall be visually shown. A list shall bekept of the
+						following ships at a minimum:</p>
+											
+						<li>Aircraft Carrier (length 5)</li>
+						<li>Battleship (length 4)</li>
+						<li>Cruiser (length 4)</li>
+						<li>Destroyer (length 3)</li>
+						<li>Submarine (Length 2)</li>
+				</td>
+				
+				<td id="game-area">
+					 <div id="gameBoard"></div>
+       				 <div id="board"></div>
+
+
+				</td>
+				<td id="fleet">
+					<div id="boat1" style="color:#A59393">Aircraft Carrier </div>
+					<div id="boat2" style="color:#A59393">Battleship</div>
+					<div id="boat3" style="color:#A59393">Cruiser</div>
+					<div id="boat4" style="color:#A59393">Destroyer</div>
+					<div id="boat5" style="color:#A59393">Submarine</div>
+				
+				</td>
+				
+			</tr>			
+           
+           	<tr style="height:50px">
+            	<td>FeedBack</td>
+				<td style="color:grey">				
+				</td>
+				
+				<td style="background-color:black; color:red">
+					Copyright ©
+					Vancouver Film School
+				</td>
+			</tr>
+		
+	</div>
+	
+ 	<script src="js/buzz.min.js"></script>
+	<script src="js/map.js"></script>
+	<script src="js/ship.js"></script>
+	<script src="js/game.js"></script> 
+</body>
+
+</html>
